@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navigation {
+    padding: 0px 175px;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.landing-hero {
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(93, 93, 93);
+    background-blend-mode: multiply;
+    height: 80vh;
+    padding: 0px 175px;
+}
+
+.hero-text {
+    color: white;
+    width: 60%;
+}
+
+.hero-text h1 {
+    font-size: 54px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.hero-text button {
+    color: white;
+    background-color: #34a0a4;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+
+.hero-text button:hover {
+    background-color: #236c6e;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+
+.landing-3 {
+    padding: 100px 175px;
+}
+
+.landing-3 .text-3 {
+    text-align: center;
+}
+
+.landing-3 .text-3 h1 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.landing-3 .text-3 p {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+
+.landing-3 .landing-services .landing-service {
+    padding: 20px;
+}
+
+.landing-4 {
+    background-color: #34a0a4;
+    padding: 75px 175px;
+}
+
+.landing-4 .text-4 {
+    width: 60%;
+}
+
+.landing-4 .text-4 h1 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.landing-4 .text-4 p {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.landing-5 {
+    background-image: url(img/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(93, 93, 93);
+    background-blend-mode: multiply;
+    height: 50vh;
+    padding: 0px 175px;
+}
+
+
+.footer {
+    background-color: #76c893;
+    height: auto;
+}
+
+.footer .footer-text {
+    padding: 12vh 175px;
+}
+
+.footer .footer-text h1 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.footer .footer-text p {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.footer .footer-text button {
+    font-size: 20px;
+}
+
+.footer .site {
+    padding-bottom: 10px;
+}
+
+.footer .site p {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* CONTACT PAGE */
+
+.header {
+    height: auto;
+    color: white;
+}
+
+.header-text {
+    padding: 12vh 175px;
+}
+
+.header-text h1 {
+    font-size: 44px;
+}
+
+.contact {
+    background-image: url(img/header-contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(93, 93, 93);
+    background-blend-mode: multiply;
+    /* padding: 0px 175px; */
+}
+
+.contact-2 {
+    padding: 75px 175px 25px 175px;
+}
+
+.contact-2 .contact-text {
+    width: 60%;
+    font-size: 20px;
+}
+
+.contact-form {
+    /* background-color: orange; */
+    padding: 0px 175px 100px 175px;
+}
+
+.contact-form form {
+    width: 57%;
+}
+
+
+/* ABOUT PAGE */
+
+.about {
+    background-image: url(img/about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(93, 93, 93);
+    background-blend-mode: multiply;
+}
+
+.about-2 {
+    padding: 0px 175px 0px 175px;
+}
+
+.about-2 .about-text {
+    padding: 5vh 100px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.about-3 {
+    /* background-color: orange; */
+    padding: 10px 250px 100px 250px;
+}
+
+
+.about-3 .worker .worker-bio {
+    height: 100%;
+}
+
+.about-3 .worker .worker-bio p {
+    font-size: 20px;
+}
+
+.about-4 {
+    background-image: url(img/our-process.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(93, 93, 93);
+    background-blend-mode: multiply;
+}
+
+.our-process {
+    padding: 50px 175px 50px 175px;
+}
+
+.our-process-text {
+    background-color: white;
+    width: 60%;
+}
+
+.our-process-text p {
+    font-size: 20px;
+}
+
+.about-hero {
+    background-color: #76c893;
+    padding: 50px 175px 50px 175px;
+}
+
+.about-hero .text-5 {
+    width: 40%;
+}
+
+.about-hero .text-5 p {
+    font-size: 20px;
+}
+
+.worker-img img {
+    width: 500px;
+}
+
+.about-footer .footer-text {
+    padding: 10vh 175px;
+}
+
+.about-footer .footer-text h1 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.about-footer .footer-text p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.about-footer .footer-text button {
+    font-size: 20px;
+}
+
+.about-site {
+    background-color: #34a0a4;
+    padding: 30px;
+}
+
+.about-site p {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* MEDIA QUERIES */
+
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .navbar-brand {
+        font-size: 26px;
+    }
+
+    .navigation {
+        padding: 0px 125px;
+    }
+
+    .landing-hero {
+        padding: 0px 125px;
+    }
+
+    .hero-text {
+        width: 60%;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .hero-text button {
+        padding: 5px 25px;
+    }
+
+    .hero-text button:hover {
+        padding: 5px 25px;
+    }
+
+    .landing-3 {
+        padding: 100px 125px;
+    }
+
+    .landing-3 .landing-services .landing-service h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .landing-4 {
+        padding: 75px 125px;
+    }
+
+    .landing-4 .text-4 {
+        width: 75%;
+    }
+
+    .landing-5 {
+        padding: 0px 125px;
+    }
+
+    .footer .footer-text {
+        padding: 12vh 125px;
+    }
+
+    .footer .footer-text button {
+        font-size: 18px;
+    }
+
+    /* CONTACT PAGE */
+
+    .header {
+        height: auto;
+        color: white;
+    }
+
+    .header-text {
+        padding: 12vh 125px;
+    }
+
+    .header-text h1 {
+        font-size: 44px;
+    }
+
+    .contact-2 {
+        padding: 75px 125px 25px 125px;
+    }
+
+    .contact-2 .contact-text {
+        width: 75%;
+        font-size: 20px;
+    }
+
+    .contact-form {
+        /* background-color: orange; */
+        padding: 0px 175px 100px 175px;
+    }
+
+    .contact-form form {
+        width: 80%;
+    }
+
+    /* ABOUT PAGE ===========================*/
+
+    .about-2 {
+        padding: 0px 125px 0px 125px;
+    }
+
+    .about-2 .about-text {
+        padding: 5vh 100px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .about-3 {
+        /* background-color: orange; */
+        padding: 10px 125px 100px 125px;
+    }
+
+    .worker-img img {
+        width: 350px;
+    }
+
+    .our-process {
+        padding: 50px 125px 50px 125px;
+    }
+
+    .our-process-text {
+        width: 75%;
+    }
+
+    .about-hero {
+        padding: 50px 125px 50px 125px;
+    }
+
+    .about-hero .text-5 {
+        width: 60%;
+    }
+
+    .about-footer .footer-text {
+        padding: 10vh 125px;
+    }
+
+    .about-footer .footer-text h1 {
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .about-site {
+        background-color: #34a0a4;
+        padding: 30px;
+    }
+
+    .about-site p {
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .dropdown-item {
+        text-align: right;
+    }
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .navigation {
+        padding: 0px 100px;
+    }
+
+
+    .landing-hero {
+        height: 65vh;
+        padding: 0px 100px;
+    }
+
+    .hero-text {
+        width: 85%;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .hero-text button {
+        padding: 5px 20px;
+    }
+
+    .hero-text button:hover {
+        padding: 5px 20px;
+    }
+
+    .landing-3 {
+        padding: 75px 100px;
+    }
+
+
+    .landing-3 .text-3 h1 {
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .landing-3 .text-3 p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+
+    .landing-3 .landing-services .landing-service h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .landing-4 {
+        background-color: #34a0a4;
+        padding: 75px 100px;
+    }
+
+    .landing-4 .text-4 {
+        width: 100%;
+    }
+
+    .landing-4 .text-4 p {
+        font-size: 18px;
+    }
+
+    .landing-5 {
+        height: 35vh;
+        padding: 0px 100px;
+    }
+
+    .footer .footer-text {
+        padding: 10vh 100px;
+    }
+
+    .footer .footer-text p {
+        font-size: 18px;
+    }
+
+    .footer .footer-text button {
+        font-size: 18px;
+    }
+
+    /* CONTACT PAGE */
+
+    .header-text {
+        padding: 12vh 100px;
+    }
+
+    .contact-2 {
+        padding: 75px 100px 25px 100px;
+    }
+
+    .contact-2 .contact-text {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .contact-form {
+        /* background-color: orange; */
+        padding: 0px 100px 100px 100px;
+    }
+
+    .contact-form form {
+        width: 92%;
+    }
+
+    /* ABOUT PAGE ======================*/
+
+    .about-2 {
+        padding: 0px 100px 0px 100px;
+    }
+
+    .about-2 .about-text {
+        padding: 50px 100px 50px 100px;
+        width: 100vw;
+        font-size: 18px;
+    }
+
+    .about-3 {
+        padding: 10px 100px 100px 100px;
+    }
+
+    .about-3 .worker {
+        flex-direction: column;
+    }
+
+    .about-3 .worker img {
+        width: 350px;
+        padding-bottom: 40px;
+    }
+
+    .about-3 .worker .worker-bio {
+        height: 100%;
+    }
+
+    .about-3 .worker .worker-bio p {
+        font-size: 18px;
+    }
+
+    .our-process {
+        padding: 50px 100px 50px 100px;
+    }
+
+    .our-process-text {
+        width: 90%;
+    }
+
+    .our-process-text p {
+        font-size: 18px;
+    }
+
+    .about-hero {
+        background-color: #76c893;
+        padding: 50px 100px 50px 100px;
+    }
+
+    .about-hero .text-5 {
+        width: 70%;
+    }
+
+    .about-hero .text-5 p {
+        font-size: 18px;
+    }
+
+    .about-footer .footer-text {
+        padding: 10vh 100px;
+    }
+
+    .about-footer .footer-text p {
+        font-size: 18px;
+    }
+
+    .about-footer .footer-text button {
+        font-size: 18px;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .landing-3 .landing-services {
+        flex-direction: column;
+    }
+
+    .landing-3 .landing-services .landing-service {
+        padding-top: 30px;
+    }
+
+    .landing-3 .landing-services .landing-service h3 {
+        padding-top: 10px;
+    }
+
+
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 22px;
+    }
+
+    .nav-item {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .navigation {
+        padding: 0px 20px;
+    }
+
+    .landing-hero {
+        height: 65vh;
+        padding: 0px 20px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .hero-text button {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+
+    .hero-text button:hover {
+        padding: 5px 15px;
+    }
+
+    .landing-3 {
+        padding: 50px 20px;
+    }
+
+    .landing-3 .text-3 h1 {
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .landing-3 .text-3 p {
+        font-size: 16px;
+    }
+
+
+    .landing-4 {
+        padding: 50px 20px;
+    }
+
+    .landing-4 .text-4 {
+        width: 100%;
+    }
+
+    .landing-4 .text-4 p {
+        font-size: 16px;
+    }
+
+    .landing-5 {
+        height: 35vh;
+        padding: 0px 20px;
+    }
+
+    .footer .footer-text {
+        padding: 10vh 20px;
+    }
+
+    .footer .footer-text p {
+        font-size: 16px;
+    }
+
+    .footer .footer-text button {
+        font-size: 16px;
+    }
+
+
+    /* CONTACT PAGE */
+
+    .header-text {
+        padding: 10vh 100px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    .contact-2 {
+        padding: 50px 20px 25px 20px;
+    }
+
+    .contact-2 .contact-text {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .contact-2 .contact-text p {
+        font-size: 16px;
+    }
+
+    .contact-form {
+        /* background-color: orange; */
+        padding: 0px 20px 100px 20px;
+    }
+
+    .contact-form form {
+        width: 86%;
+    }
+
+    .contact-form label {
+        font-size: 16px;
+    }
+
+    /* ABOUT PAGE ======================*/
+
+    .about-2 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .about-2 .about-text {
+        padding: 20px 20px 20px 20px;
+        /* width: 100vw; */
+        font-size: 16px;
+    }
+
+    .about-3 {
+        padding: 10px 20px 100px 20px;
+    }
+
+    .about-3 .worker img {
+        width: 350px;
+        padding-bottom: 40px;
+    }
+
+    .about-3 .worker .worker-bio {
+        height: 100%;
+    }
+
+    .about-3 .worker .worker-bio p {
+        font-size: 16px;
+    }
+
+    .our-process {
+        padding: 50px 20px 50px 20px;
+    }
+
+    .our-process-text {
+        width: 95%;
+    }
+
+    .our-process-text p {
+        font-size: 16px;
+    }
+
+    .about-hero {
+        background-color: #76c893;
+        padding: 50px 20px 50px 20px;
+    }
+
+    .about-hero .text-5 {
+        width: 80%;
+    }
+
+    .about-hero .text-5 p {
+        font-size: 16px;
+    }
+
+    .about-footer .footer-text {
+        padding: 10vh 20px;
+    }
+
+    .about-footer .footer-text p {
+        font-size: 16px;
+    }
+
+    .about-footer .footer-text button {
+        font-size: 16px;
+    }
+
+}
