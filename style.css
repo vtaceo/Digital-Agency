@@ -50,15 +50,14 @@ body {
 }
 
 .hero-text button {
-    color: white;
-    background-color: #34a0a4;
+    background-color: #90e0ef;
     font-weight: 600;
     font-size: 18px;
     padding: 5px 30px;
 }
 
 .hero-text button:hover {
-    background-color: #236c6e;
+    background-color: #67a1ab;
     font-weight: 600;
     font-size: 18px;
     padding: 5px 30px;
@@ -88,7 +87,7 @@ body {
 }
 
 .landing-4 {
-    background-color: #34a0a4;
+    background-color: #90e0ef;
     padding: 75px 175px;
 }
 
@@ -119,7 +118,7 @@ body {
 
 
 .footer {
-    background-color: #76c893;
+    background-color: #beee62;
     height: auto;
 }
 
@@ -223,7 +222,6 @@ body {
     padding: 10px 250px 100px 250px;
 }
 
-
 .about-3 .worker .worker-bio {
     height: 100%;
 }
@@ -255,20 +253,28 @@ body {
 }
 
 .about-hero {
-    background-color: #76c893;
+    background-color: #beee62;
     padding: 50px 175px 50px 175px;
 }
 
 .about-hero .text-5 {
-    width: 40%;
+    width: 50%;
 }
 
 .about-hero .text-5 p {
     font-size: 20px;
 }
 
+.worker-img {
+    padding-bottom: 30px;
+}
+
 .worker-img img {
     width: 500px;
+}
+
+.about-3 .worker {
+    flex-direction: column;
 }
 
 .about-footer .footer-text {
@@ -290,7 +296,87 @@ body {
 }
 
 .about-site {
-    background-color: #34a0a4;
+    background-color: #90e0ef;
+    padding: 30px;
+}
+
+.about-site p {
+    padding: 0;
+    margin: 0;
+}
+
+/* TEAM PAGE ==================*/
+
+.team {
+    background-image: url(img/our-process.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(93, 93, 93);
+    background-blend-mode: multiply;
+}
+
+.team-2 {
+    padding: 0px 175px 0px 175px;
+}
+
+.team-2 .team-text {
+    padding: 5vh 100px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.team-3 {
+    /* background-color: orange; */
+    padding: 10px 250px 100px 250px;
+}
+
+.team-3 .workers {
+    /* background-color: orange; */
+    min-height: 600px;
+}
+
+.team-3 .worker {
+    padding-bottom: 50px;
+}
+
+.team-3 .worker .worker-bio {
+    height: 100%;
+}
+
+.team-3 .worker .worker-bio p {
+    font-size: 20px;
+}
+
+.team-3 .worker-img img {
+    width: 250px;
+}
+
+.team-footer .footer-text {
+    background-color: #beee62;
+    padding: 10vh 175px;
+}
+
+.team-footer .footer-text h1 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.team-footer .footer-text p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.team-footer .footer-text button {
+    font-size: 20px;
+}
+
+.team-footer .footer-text {
+    padding: 10vh 175px;
+}
+
+.about-site {
+    background-color: #90e0ef;
     padding: 30px;
 }
 
@@ -397,12 +483,18 @@ body {
 
     /* ABOUT PAGE ===========================*/
 
+    .about-2 .about-text {
+        padding: 5vh 100px;
+        width: 100%;
+        font-size: 20px;
+    }
+
     .about-2 {
         padding: 0px 125px 0px 125px;
     }
 
     .about-2 .about-text {
-        padding: 5vh 100px;
+        padding: 5vh 0px;
         width: 100%;
         font-size: 20px;
     }
@@ -429,7 +521,7 @@ body {
     }
 
     .about-hero .text-5 {
-        width: 60%;
+        width: 80%;
     }
 
     .about-footer .footer-text {
@@ -442,7 +534,7 @@ body {
     }
 
     .about-site {
-        background-color: #34a0a4;
+        /* background-color: #34a0a4; */
         padding: 30px;
     }
 
@@ -450,6 +542,31 @@ body {
         padding: 0;
         margin: 0;
     }
+
+    /* TEAM PAGE ==================*/
+
+    .team-2 .team-text {
+        padding: 5vh 0px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .team-3 {
+        padding: 10px 100px 100px 100px;
+    }
+
+    .team-3 .workers {
+        min-height: 600px;
+    }
+
+    .team-2 {
+        padding: 0px 125px 0px 125px;
+    }
+
+    .team-footer .footer-text {
+        padding: 10vh 125px;
+    }
+
 
 }
 
@@ -514,7 +631,7 @@ body {
     }
 
     .landing-4 {
-        background-color: #34a0a4;
+        /* background-color: #34a0a4; */
         padding: 75px 100px;
     }
 
@@ -613,12 +730,11 @@ body {
     }
 
     .about-hero {
-        background-color: #76c893;
         padding: 50px 100px 50px 100px;
     }
 
     .about-hero .text-5 {
-        width: 70%;
+        width: 90%;
     }
 
     .about-hero .text-5 p {
@@ -636,6 +752,42 @@ body {
     .about-footer .footer-text button {
         font-size: 18px;
     }
+
+    /* TEAM PAGE ==================*/
+
+    .team-2 {
+        padding: 0px 100px 0px 100px;
+    }
+
+    .team-2 .team-text {
+        padding: 5vh 0px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .team-3 .worker {
+        flex-direction: column;
+    }
+
+    .team-3 .worker .worker-img {
+        padding-bottom: 30px;
+    }
+
+    .team-3 {
+        padding: 10px 100px 100px 100px;
+    }
+
+    .team-3 .worker .worker-bio p {
+        font-size: 18px;
+    }
+
+    .team-3 .worker-img img {
+        width: 225px;
+    }
+
+    .team-footer .footer-text {
+        padding: 10vh 100px;
+    }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -650,6 +802,14 @@ body {
 
     .landing-3 .landing-services .landing-service h3 {
         padding-top: 10px;
+    }
+
+    .about-hero {
+        padding: 50px 100px 50px 100px;
+    }
+
+    .about-hero .text-5 {
+        width: 100%;
     }
 
 
@@ -818,7 +978,7 @@ body {
     }
 
     .about-hero {
-        background-color: #76c893;
+        background-color: #beee62;
         padding: 50px 20px 50px 20px;
     }
 
@@ -840,6 +1000,28 @@ body {
 
     .about-footer .footer-text button {
         font-size: 16px;
+    }
+
+    /* TEAM PAGE ==================*/
+
+    .team-2 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .team-2 .team-text {
+        font-size: 16px;
+    }
+
+    .team-3 .worker .worker-bio p {
+        font-size: 16px;
+    }
+
+    .team-3 {
+        padding: 10px 20px 100px 20px;
+    }
+
+    .team-footer .footer-text {
+        padding: 10vh 20px;
     }
 
 }
