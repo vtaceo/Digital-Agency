@@ -270,7 +270,7 @@ body {
 }
 
 .worker-img img {
-    width: 500px;
+    width: 400px;
 }
 
 .about-3 .worker {
@@ -1028,4 +1028,82 @@ body {
         padding: 10vh 20px;
     }
 
+}
+
+
+@media (max-width: 414px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .navigation {
+        padding: 0px 0px;
+    }
+
+    .landing-hero {
+        height: 65vh;
+        padding: 0px 0px;
+    }
+
+    .landing-3 {
+        padding: 50px 00px;
+    }
+
+    .landing-4 {
+        padding: 50px 0px;
+    }
+
+    .header-text {
+        /* background-color: pink; */
+        padding: 10vh 20px;
+    }
+
+    .about-2 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .about-2 .about-text {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .about-3 {
+        padding: 10px 0px 100px 0px;
+    }
+
+    .about-hero {
+        background-color: #beee62;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .about-hero .text-5 {
+        width: 100%;
+    }
+
+    .team-2 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .team-2 .team-text {
+        /* background-color: teal; */
+        padding: 10px 0px 10px 0;
+        width: 100%;
+    }
+
+    .team-3 {
+        padding: 10px 0px 100px 0px;
+    }
+
+    .contact-2 {
+        padding: 10px 0px 25px 0px;
+    }
+
+    .contact-2 .contact-text {
+        width: auto;
+        font-size: 18px;
+    }
+
+    .contact-form {
+        /* background-color: orange; */
+        padding: 0px 0px 100px 0px;
+    }
 }
